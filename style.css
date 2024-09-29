@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.container1{
+    position: fixed;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    .logo{
+        background: url(logotakeoff.webp)no-repeat;
+        height: 9.5vh;
+        width: 12vw;
+        background-size: contain;
+    }
+    .link{
+        display: flex;
+        height: 10vh;
+        align-items: center;
+        a{
+            color: rgb(43, 140, 200);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 540;
+            margin-left: 1vw;
+        }
+    }
+    button{
+        height: 5vh;
+        width: 2.5vw;
+        border: 3px solid rgb(43, 140, 200);
+        border-radius: 8px;
+        background-color: white;
+        margin-left: 15vw;
+    }
+    .signup{
+        height: 5vh;
+        width: 10vw;
+        color: white;
+        background-color: blue;
+        padding-top: 0.6vh;
+        margin-left: 0.6vw;
+        border-radius: 5px;
+    }
+}
+.container2{
+    position: fixed;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    height: 7.5vh;
+    width: 100%;
+    background-color:  #07325d;
+    text-align: center;
+    pre{
+        color: white;
+        margin-left: 120px;
+        padding-top: 15px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .start{
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        border: 1px solid white;
+        height: 30px;
+        width: 130px;
+        margin-left: 10px;
+        border-radius: 5px;
+        padding-top: 3px;
+    }
+}
+.backgorundimage{
+    .bgimage1{
+        position: fixed;
+        height: 60vh;
+        width: 60vw;
+        background-color: #ffa707;
+        transform: skew(-70deg);
+        left: 1100px;
+        top: 20px;
+        z-index: -9;
+    }
+    .bgimage2{
+        position: fixed;
+        height: 200px;
+        width: 600px;
+        background-color: #07325d;
+        transform: skew(70deg);
+        left: 920px;
+        top: 50px;
+        z-index: -10;
+    }
+    .bgimage3{
+        position: fixed;
+        height: 300px;
+        width: 10000px;
+        background-color: #607d8b;
+        transform: skew(70deg);
+        right: 300px;
+        top: 80px;
+        z-index: -10;
+    }
+    .bgimage4{
+        position: fixed;
+        height: 60vh;
+        width: 8vw;
+        background-color: white;
+        transform: skew(-70deg);
+        left: 60VW;
+        top: 100px;
+        z-index: -8;
+    }
+}
+.contact-box{
+    height: 40vh;
+    width: 100%;
+    z-index: 100;
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .address{
+        height: 38vh;
+        width: 25vw;
+        background-color: white;
+        box-shadow: 1px 1px 1px 1px  rgb(86, 86, 86);
+        .div{
+            transform: rotate(30deg);
+            margin-top: 35px;
+            margin-left: 10vw;
+        }
+    }
+    .ph-no{
+        height: 38vh;
+        width: 25vw;
+        background-color: white;
+        box-shadow: 1px 1px 1px 1px  rgb(86, 86, 86);
+    }
+    .mail{
+        height: 38vh;
+        width: 25vw;
+        background-color: white;
+        box-shadow: 1px 1px 1px 1px  rgb(86, 86, 86);
+    }
+}
+.info-container{
+    height: 90vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    .get-in-touch{
+        width: 30vw;
+    }
+    .location{
+        margin-top: 15vh;
+    }
+}
+.footer-container{
+    height: 61vh;
+    width: 100%;
+    background-color: #07325d;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10vh;
+    .fcon1 input{
+        border: 5px;
+    }
+    .fcon1 button{
+        color: white;
+        background-color: #a57111;
+        width: 14.65vw;
+        border-color: none;
+        border-radius: 5px;
+        margin-top: 2vh;
+    }
+    .fcon2{
+        color:#a5a5a5;
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+    .fcon3{
+        color:#a5a5a5;
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+    .fcon4{
+        color:#a5a5a5;
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+    .fcon5{
+        .fimage{
+            background: url(logotakeoff3new1-footer.webp)no-repeat;
+            height: 9.5vh;
+            width: 12vw;
+            background-size: contain;
+        }
+    color: #a57111;
+    }
+}
+
